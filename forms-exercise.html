@@ -11,9 +11,9 @@
     <form>
         <div>
             <label for="first-name">First Name:</label>
-            <input id="first-name" type="text">
+            <input id="first-name" type="text" required>
             <label for="last-name">Last Name:</label>
-            <input id="last-name" type="text">
+            <input id="last-name" type="text" required>
         </div>
         <div>
             <label for="radio-male">Male</label>
@@ -25,30 +25,37 @@
         </div>
         <div>
             <label for="email">Email:</label>
-            <input id="email" type="text" placeholder="your email">
+            <input id="email" type="email" placeholder="your email" required>
             <label for="password">Password:</label>
-            <input id="password" type="text" placeholder="your password">
+            <input id="password" type="text" placeholder="your password" minlength="5" maxlength="10">
         </div>
         <div>
             <label for="birthday">Birthday:</label>
             <select name="birthday-month" id="birthday">
+                <option selected hidden>Month</option>
                 <option value="may">May</option>
                 <option value="june">June</option>
                 <option value="july">July</option>
             </select>
             <select name="birthday-day" id="birthday">
+                <option selected hidden>Day</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
             <select name="birthday-year" id="birthday">
+                <option selected hidden>Year</option>
                 <option value="1980">1980</option>
                 <option value="1981">1981</option>
                 <option value="1982">1982</option>
             </select>
         </div>
-        <div></div>
-        <div></div>
+        <div>I agree to the terms and conditions
+            <input type="checkbox" id="agree to terms">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
     </form>
 </body>
 
