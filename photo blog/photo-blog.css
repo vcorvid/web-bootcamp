@@ -7,9 +7,16 @@ body{
 }
 
 img {
-    width:30%;
+    width:25%;
     float: left;
-    margin: 1.66%;  
+    padding:1.57%;
+}
+img:first-child{
+    margin-left: 7%;
+}
+img:nth-child(3n)  {
+    margin-bottom: 7%;
+    margin-right: 7%;
 }
 h1{
 
