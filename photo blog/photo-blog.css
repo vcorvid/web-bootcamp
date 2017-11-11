@@ -1,0 +1,33 @@
+@font-face{
+    font-family:"Architex";
+    src:url("Architex.ttf");
+} 
+body{
+    font-family: "Wire One", sans-serif;
+}
+
+img {
+    width:30%;
+    float: left;
+    margin: 1.66%;  
+}
+h1{
+
+    padding-bottom: .1em;
+    font-size: 5em;
+    margin-bottom:.2em;
+    margin-top: .5em;
+    margin-left: 1.66%;
+    border-bottom: 1px black solid;
+
+}
+
+#spruce-bark{
+
+}
+#passion-flower{
+    transform: rotate(180deg);
+}
+#fall-landscaping{
+    transform: rotate(180deg)
+}
