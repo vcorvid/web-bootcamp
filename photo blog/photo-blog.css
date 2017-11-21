@@ -9,23 +9,22 @@ body{
 img {
     width:25%;
     float: left;
-    padding:1.57%;
+    padding:2.5%;
 }
-img:first-child{
-    margin-left: 7%;
+img:nth-child(3n+1){
+    margin-left: 5%;
 }
-img:nth-child(3n)  {
-    margin-bottom: 7%;
-    margin-right: 7%;
+img:nth-child(3n+3)  {
+    margin-right: 5%;
 }
 h1{
 
     padding-bottom: .1em;
-    font-size: 5em;
+    font-size: 10vw;
     margin-bottom:.2em;
     margin-top: .5em;
-    margin-left: 1.66%;
-    border-bottom: 1px black solid;
+    border-bottom: 1px #999999 solid;
+    text-align: center;
 
 }
 
