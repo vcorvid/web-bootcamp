@@ -1,0 +1,1 @@
+firstName= window.prompt("What's your first name?", default);
