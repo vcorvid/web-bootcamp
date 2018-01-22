@@ -1,4 +1,4 @@
-var age = prompt("What is your age?");
+var age = Number(prompt("What is your age?"));
 if (age < 0) {
     alert("Age must be a positive number");
 }
